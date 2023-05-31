@@ -25,6 +25,9 @@ main {
   display: block;
   text-align: center;
   align-items: center;
+  color: darkblue;
+  font-weight: bold;
+  font-size: large;
 }
 .card-footer {
   display: grid;
@@ -34,8 +37,15 @@ main {
 .btn {
   cursor: pointer;
   padding: 0.5rem;
-
   transition: all 0.4s linear;
+  box-shadow: 5px 5px 5px 5px grey;
   border-radius: 1rem;
   border-color: transparent;
+  color: darkblue;
+  font-weight: bold;
+  font-size: large;
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 1;
 }
